@@ -1,0 +1,56 @@
+
+        #home{
+            border:1px solid black;
+            background-color: aqua;
+            border-radius: 5px 5px 5px 5px;
+            padding: 2px;
+        }
+        #contact{
+            border:1px solid black;
+            background-color: aqua;
+            border-radius: 5px 5px 5px 5px;
+            padding: 2px;
+        }
+        #service{
+            border:1px solid black;
+            background-color: aqua;
+            border-radius: 5px 5px 5px 5px;
+            padding: 2px;
+        }
+        #customer{
+            border:1px solid black;
+            background-color: aqua;
+            border-radius: 5px 5px 5px 5px;
+            padding: 2px;
+        }
+        #vendor{
+            border:1px solid black;
+            background-color: aqua;
+            border-radius: 5px 5px 5px 5px;
+            padding: 2px;
+        }
+        #home:hover{
+            background-color: rgb(106, 224, 224);
+        }
+        #service:hover{
+            background-color: rgb(106, 224, 224);
+        }
+        #contact:hover{
+            background-color: rgb(106, 224, 224);
+        }
+        #customer:hover{
+            background-color: rgb(106, 224, 224);
+        }
+        #vendor:hover{
+            background-color: rgb(106, 224, 224);
+        }
+        #border{
+            border: 1px solid black;
+            background-color: rgb(109, 177, 177);
+            border-radius: 5px 5px 5px 5px;
+            padding:8px;
+        }
+        #border:hover{
+            background-color: beige;
+        }
+

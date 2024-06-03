@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+* { box-sizing: border-box; }
+
+body,
+html { overflow-x: hidden; }
+
+.bar :hover{
+  position: absolute;
+
+  /* filter: contrast(1px); */
+  background-color: rgb(68, 68, 68) !important;
+
+  width: 100%;
+  padding: 25px;
+
+  /* background-color: #e74c3c; */
+  opacity: 1;
+
+  font-family: Gelasio;
+  font-size: 18px;
+
+  /* background-image: url("./images/bg-image2.png"); */
+
+  animation: move 100s linear infinite;
+
+ 
+  cursor: pointer;
+  background-color: green;
+}
+
+.bar_content{
+  display: block; /* Important to give the content a width */
+
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+ 
+}
+
+
+
+/* Create the animation */
+@keyframes move {
+  to { transform: translateX(-100%); }
+}
+#img1{
+  width:100px;
+  height: 45px;
+
+  padding-bottom:6px;
+  
+ 
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Homepage</title>
+  <link rel="stylesheet" href="./customer_homepage.css">
+</head>
+
+<body>
+  <h1 id="headcontent">😍🙏WELCOME TO CUSTOMER HOME PAGE 🙏😍</h1>
+  <div class="button-container">
+    <button class="button" id="getDetailsButton">Get Details</button>
+    <button class="button" id="updateButton">Update</button>
+    <button class="button" id="displayworks">Display Works</button>
+    <button class="button" id="displayVendorsButton">Display All Vendors</button>
+    <button class="button" id="deleteButton">Delete</button>
+    <button class="button" id="uploadWork">Upload work</button>
+    <!-- <button class="button" id="payment">Make payment</button> -->
+    <button class="button" id="logoutButton">Logout</button>
+  </div>
+
+  <div id="detailsContainer" style="display: none;border: 1px solid;">
+    <h2>Customer Details</h2>
+    <p><strong>Name:</strong> <span id="customerName"></span></p>
+    <p><strong>Email:</strong> <span id="customerEmail"></span></p>
+    <p><strong>Phone:</strong> <span id="customerPhone"></span></p>
+    <p><strong>Family count:</strong> <span id="customerFamilyCount"></span></p>
+    
+  </div>
+  <div id="listofworks">
+    <h2  id="listcontent">List of Available Works</h2>
+    <!-- <div id="listofworks"></div> -->
+  </div>
+  <div id="vendorDetails">
+    <h2 id="listcontent1">List of Available Vendors</h2>
+    
+  </div>
+  <script src="../js/customer_homepage.js"></script>
+</body>
+</html>
